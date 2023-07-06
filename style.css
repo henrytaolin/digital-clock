@@ -31,7 +31,7 @@ h2 {
 .clock span {
     width: 100px;
     height: 80px;
-    background: slateblue;
+    background: rgb(231, 52, 52);
     opacity: .8;
     color: white;
     display: flex;
@@ -44,9 +44,11 @@ h2 {
 .clock .text {
     height: 30px;
     font-size: 10px;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background: darkblue;
+    background: rgb(239, 239, 255);
+    color: rgb(231, 52, 52);
     opacity: 0.8;
 }
 
